@@ -1,0 +1,72 @@
+# Line Counter 复杂示例文件
+
+这是一个用于测试 Line Counter 工具所有功能的复杂示例文件。
+
+## 第一部分：基本内容
+
+这里是一些普通的文本行。
+包含中文字符：你好世界！
+English content: Hello World!
+
+## 第二部分：包含空行的内容
+
+这是第一行。
+
+这是第三行（上面有一个空行）。
+
+
+这是第六行（上面有两个空行）。
+
+## 第三部分：特殊字符
+
+包含特殊字符：@#$%^&*()_+-=[]{}|;:,.<>?
+包含 Unicode 字符：🎉🚀📊✅❌🔲📈📏📄
+包含 emoji 表情：😀😃😄😁😊🙂🤗
+
+## 第四部分：代码示例
+
+```rust
+fn main() {
+    println!("Hello, world!");
+
+    let numbers = vec![1, 2, 3, 4, 5];
+    for num in numbers {
+        println!("{}", num);
+    }
+}
+```
+
+## 第五部分：长行内容
+
+这是一个非常长的行，用于测试工具如何处理长行内容。这行包含了很多文字，目的是测试缓冲读取和性能。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+## 第六部分：混合内容
+
+- 项目列表项 1
+- 项目列表项 2
+  - 子项目 2.1
+  - 子项目 2.2
+- 项目列表项 3
+
+1. 编号列表项 1
+2. 编号列表项 2
+3. 编号列表项 3
+
+## 第七部分：表格
+
+| 列1 | 列2 | 列3 |
+|-----|-----|-----|
+| 数据1 | 数据2 | 数据3 |
+| 数据4 | 数据5 | 数据6 |
+
+## 第八部分：引用
+
+> 这是一个引用块。
+> 引用可以包含多行内容。
+>
+> 甚至可以包含空行。
+
+## 第九部分：最后的空行测试
+
+这是倒数第二行。
+这是最后一行。
